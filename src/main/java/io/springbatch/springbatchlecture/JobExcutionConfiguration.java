@@ -24,7 +24,6 @@ public class JobExcutionConfiguration {
         return this.jobBuilderFactory.get("job")
                 .start(stepFirst())
                 .next(stepSecond())
-                .next(stepThird())
                 .build();
     }
 
