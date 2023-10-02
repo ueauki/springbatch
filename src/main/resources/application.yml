@@ -29,7 +29,5 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
-    job:
-      enabled: false
 
 
